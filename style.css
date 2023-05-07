@@ -1,0 +1,192 @@
+/* COLORS
+
+hsla(120, 20%, 60%, 1)
+hsla(160, 20%, 60%, 1)
+
+hsla(240, 80%, 30%, 1)
+hsla(250, 80%, 90%, 1)
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+/* SECTIONS */
+
+.panel {
+  padding: 15px;
+  margin: 10px 10px 10px 10px;
+  background-color: #eee;
+  border-radius: 20px;
+  border: solid #333;
+  border-width: 0 3px 3px 0;
+}
+
+.panel p {
+  white-space: normal;
+  font-size: 90%;
+}
+
+.panel h2 {
+  padding-right: 20px;
+  display: block;
+  width: 320px;
+}
+
+.project {
+  background: linear-gradient(
+    45deg,
+    hsla(240, 80%, 80%, 1),
+    hsla(20, 80%, 80%, 1)
+  );
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.experience {
+  background: linear-gradient(
+    45deg,
+    hsla(20, 80%, 80%, 1),
+    hsla(240, 80%, 80%, 1)
+  );
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.panel-title {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 60px;
+}
+
+.skills {
+  white-space: nowrap;
+  overflow-x: scroll;
+  background-color: black;
+}
+
+.skills-panel {
+  padding: 15px;
+  margin: 15px 10px 15px 10px;
+  border: 1px solid white;
+  color: #eee;
+}
+
+.skills-panel p {
+  margin-top: 10px;
+  white-space: normal;
+  font-family: "Inconsolata";
+}
+
+.skills-list {
+  font-family: "Inconsolata";
+}
+
+.skills-panel h2 {
+  padding-right: 20px;
+  display: block;
+  width: 400px;
+}
+
+/* TAGS */
+
+nav {
+  position: fixed;
+  width: 100%;
+  min-width: 800px;
+  background-color: black;
+  height: 7vh;
+  z-index: 10;
+}
+
+section {
+  height: 50vh;
+  position: relative;
+  top: 7vh;
+  display: flex;
+  /*border-top: solid 3px white;
+  border-bottom: solid 3px white;*/
+  border-left: solid 20px black;
+}
+
+.tag {
+  text-decoration: dotted;
+  padding: 10px 0px;
+}
+
+footer {
+  position: relative;
+  top: 7vh;
+  background-color: black;
+  color: white;
+  padding: 10px 10px 10px 20px;
+  font-size: 10px;
+}
+
+/* IDs */
+
+.project-title {
+  margin-top: 30vh;
+}
+
+.skills-project-title {
+  margin-top: 25vh;
+}
+
+.exp-project-title {
+  margin-top: 32vh;
+}
+
+/* SECTION x TAG */
+
+nav a {
+  border: none;
+  padding: 0 10px;
+  margin: 10px;
+  color: white;
+  background: none;
+  line-height: 7vh;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav h2 {
+  float: right;
+  color: white;
+  margin: 0 10px;
+  font-size: 16px;
+  line-height: 7vh;
+}
+
+.panel h2 {
+  padding-bottom: 10px;
+  font-family: "Merriweather";
+}
+
+.panel p {
+  font-family: "Poppins";
+}
+
+.panel-title h1 {
+  transform: rotate(-90deg);
+  color: white;
+  letter-spacing: 5px;
+}
+
+.spacer p {
+  font-family: "Inconsolata";
+}
+
+/* PSEUDO */
+
+a:hover {
+  text-decoration: underline solid white;
+  text-underline-offset: 4px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
