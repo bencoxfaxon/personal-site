@@ -79,6 +79,7 @@ hsla(250, 80%, 90%, 1)
   margin-top: 10px;
   white-space: normal;
   font-family: "Inconsolata";
+  font-size: 18px;
 }
 
 .skills-list {
@@ -177,6 +178,11 @@ nav h2 {
 }
 
 .spacer p {
+  font-family: "Inconsolata";
+}
+
+.skills-panel ul {
+  padding-left: 10px;
   font-family: "Inconsolata";
 }
 
